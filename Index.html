@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Project Landing Page</title>
+</head>
+<body>
+    <div class="boss">
+    <nav class="nav" data-aos="fade-down" data-aos-duration="1000">
+        <h1 class="scroll">Original Trombones</h1>
+        <ul class="list">
+            <li><a href="#Features">FEATURES</a></li>
+            <li><a href="#HowItWorks">HOW IT WORKS</a></li>
+            <li><a href="#Pricing">PRICING</a></li>
+        </ul>
+        <img class="moon" src="./images/moon.png" alt="">
+        <img class="sun" src="./images/sun.png" alt="">
+    </nav>
+    <main class="main">
+        <section id="home" data-aos="fade-right" data-aos-duration="1000">
+            <h1 class="heading">Handcrafted, home-made masterpieces</h1>
+            <form action="https://www.freecodecamp.com/email-submit" class="form">
+                <label for="email" class="email">
+                    <input type="email" class="emaili" placeholder="Enter Your Email Address">
+                </label>
+                <button class="hbtn">GET STARTED</button>
+            </form>
+        </section>
+        <section id="Features" data-aos="fade-right" data-aos-duration="1000">
+            <div class="f1">
+                <img src="./images/orange fire.png" alt="" class="imgo">
+                <div class="container">
+                <h1>Premium Materials</h1>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+                </div> 
+            </div>
+            <div class="f1">
+                <img src="./images/orange truck.png" alt="" class="imgo">
+                <div class="container">
+                <h1>Fast Shipping</h1>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+                </div>
+            </div>
+            <div class="f1">
+                <img src="./images/orange battery.png" alt="" class="imgo">
+                <div class="container">
+                <h1>Quality Assurance</h1>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+                </div>
+            </div>
+        </section>
+        <section id="HowItWorks" data-aos="fade-up" data-aos-duration="1000">
+            <h1 class="hhead">HOW IT WORKS</h1>
+            <iframe id="video" height="315" src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+        </section>
+        <section id="Pricing" data-aos="fade-up" data-aos-duration="1000">
+            <h1>PRICING</h1>
+            <div class="container1">
+            <div class="tenor">
+                <h1 class="tt">TENOR TROMBONE</h1>
+                <h1 class="ttt">$600</h1>
+                <p class="pp">Lorem ipsum   <br> consectetur adipisicing  <br> Vel aliquid  <br> numquam possimus,</p>
+                <button class="pbtn">SELECT</button>
+            </div>
+            <div class="tenor">
+                <h1 class="tt">BASS TROMBONE</h1>
+                <h1 class="ttt">$900</h1>
+                <p class="pp">Lorem ipsum  <br> consectetur adipisicing  <br> Vel aliquid <br> numquam possimus,</p>
+                <button class="pbtn">SELECT</button>
+            </div>
+            <div class="tenor">
+                <h1 class="tt">VALVE TROMBONE</h1>
+                <h1 class="ttt">$1200</h1>
+                <p class="pp">Lorem ipsum  <br> consectetur adipisicing  <br> Vel aliquid  <br> numquam possimus,</p>
+                <button class="pbtn">SELECT</button>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer" data-aos="fade-right" data-aos-duration="1000">
+        <nav class="navf">
+            <ul class="listf">
+                <li><a href="#Features">Features</a></li>
+                <li><a href="#HowItWorks">HowItWorks</a></li>
+                <li><a href="#Pricing">Pricing</a></li>
+            </ul>
+            <p class="ppp">Copyright 2016, Original Trombones</p>
+        </nav>
+    </footer>
+    </div>
+    <script src="Sandbox.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
